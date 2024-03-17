@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+header h1{
+    font-family: "Alatsi", sans-serif;
+}
+
+header{
+    padding: 19px;
+    background-color: black;
+    color: aliceblue;
+    width: 100vw;
+}
+
+header nav li{
+    display: inline-block;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Roboto Mono", monospace;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section,
+footer{
+    padding: 26px;
+    width: 100vw;
+}
+
+section .section-1,
+section .section-2,
+section .section-3{
+    align-items: flex-start;
+}
+
+.section-1 h2{
+    font-size: 35px;
+    column-count: 2;
+    font-family: "Alatsi", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.section-1 p{
+    font-size: 19px;
+    font-family: "Roboto Mono", monospace;
+    color: rgb(0, 255, 255);
+
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.img-01{
+    position: absolute;
+    width: 1700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text{
+    position: absolute;
+    top: 43%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.img-02{
+    padding: 10px;
+    position: absolute;
+    align-items: center;
+    width: 670px;
+    height: 380px;
+    top: 128%;
+    left: 3%;
+    border-radius: 7%;
+}
+
+.text-2{
+    word-spacing: -3px;
+    position: relative;
+    top: 0;
+    left: 620px;
+    font-size: 22px;
+    width: calc(100% - 600px);
+}
+
+.section-2 h3{
+    font-size: 35px;
+    line-height: 1.5;
+    color: aliceblue;
+    font-family: "Alatsi", sans-serif;
+
+}
+
+.section-2 p{
+    font-size: 19px;
+    text-indent: 10px;
+    text-align: justify;
+    color: rgb(0, 255, 255);
+    font-family: "Roboto Mono", monospace;
+
+}
+
+.section-2{
+    background-color: black;
+    padding: 110px;
+}
+
+.section-3{
+    background-color: rgb(255, 255, 255);
+    padding: 28px;
+}
+
+.text-3{
+    position: relative;
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+.section-3 h3{
+    font-size: 35px;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+    font-family: "Roboto Mono", monospace;
+
+}
+
+.section-3 p{
+    font-size: 19px;
+    text-indent: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: "Roboto Mono", monospace;
+
+
+}
+
+.section-4{
+    background-image: linear-gradient(to right, #000000 20%,rgb(0, 255, 255));
+    padding: 28px;
+}
+
+.section-4 h2{
+    color: aliceblue;
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+}
+
+#newsletter .container{
+    display: block;
+
+}
+
+.newsletter-methods{
+    display: flex;
+    justify-content: center;
+}
+
+form input,
+form textarea{
+    display: block;
+    width: 500px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    display: block;
+    width: 500px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: aqua;
+    color: #000000;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(200, 147, 244);
+}
+
+input:focus, textarea:focus{
+    outline-color: aliceblue;
+}
+
+.Social-links img{
+    padding: 1px;
+    position: relative;
+    height: 24px;
+    top: 0;
+    left: 47%;
+    
+}
+
+.Social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.Social-links li a{
+    text-decoration: none;
+}
+
+.section-4 .txt-h2{
+    color: #ffffff;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer{
+    background-color: #000000;
+    color: aliceblue;
+    padding: 20px 0;
+    text-align: center;
+}
